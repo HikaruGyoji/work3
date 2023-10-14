@@ -4,13 +4,13 @@
   --bg-color: #141414;
   --bg-gradient: linear-gradient(
     135deg,
-    #0e002e 0%,
-    #1e092b 23%,
-    #320c65 49%,
-    #a01b7c 80%,
-    #c21780 100%
+    #012e00 0%,
+    #0b2b09 23%,
+    #0f650c 49%,
+    #5da01b 80%,
+    #97c217 100%
   );
-  --main-color: #d136d1;
+  --main-color: #bfd136;
   --text-color: #fff;
 }
 
@@ -58,14 +58,14 @@ img {
   padding: 24px 0;
   transition: all 0.3s;
   border-radius: 100px;
-  background: linear-gradient(135deg, #c41a7f 0%, #664bbf 100%);
-  box-shadow: 0 10px 0 #dd118e;
+  background: linear-gradient(135deg, #1ac425 0%, rgb(191, 187, 75) 100%);
+  box-shadow: 0 10px 0 #ddc911;
 }
 
 .btn:hover {
   /* transform: translate3d(0, 4px, 0); */
   transform: translateY(4px);
-  box-shadow: 0 6px 0 #dd118e;
+  box-shadow: 0 6px 0 #ddc911;
 }
 
 .btn--sm {
@@ -134,7 +134,7 @@ img {
 }
 
 .table-type02 tr {
-  border-bottom: solid 1px #740174;
+  border-bottom: solid 1px #bfd136;
 }
 
 .table-type02 th,
@@ -495,7 +495,7 @@ REGISTOR
   text-decoration: none;
   transition: opacity 0.3s;
   border-radius: 50%;
-  background: linear-gradient(135deg, #c41a7f 0%, #664bbf 100%);
+  background: linear-gradient(135deg, #1ac425 0%, #bfd136 100%);
   cursor: pointer;
 }
 
@@ -535,7 +535,7 @@ REGISTOR
     width: 180px;
     font-size: 16px;
     padding: 20px 0;
-    box-shadow: 0 6px 0 #dd118e;
+    box-shadow: 0 6px 0 #bfd136;
   }
 
   /* レイアウト */
